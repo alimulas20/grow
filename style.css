@@ -1,0 +1,48 @@
+body{
+    background-color: #81bff8;
+}
+#text_area{
+    width: 100%;
+    text-align: center;
+}
+#text_top{
+   margin-top: 350px;
+   color: white;
+   text-shadow: -100px 200px 69px rgba(1,1,1,0.2);
+}
+#text_top::after{
+    content: "You have got a new message";
+    display: block;
+    color:rgba(255, 252, 252, 0.05);
+    transform: rotate3d(1, 0, 0, 148deg);
+    margin: 0 10px;
+}
+#text_mid{
+    margin-top: 500px;
+    color: black;
+}
+#text_bot{
+    margin-top: 30px;
+}
+#text_bot h1{
+    font-family: 'GT Walsheim', sans-serif;   
+}
+#scroller_top{
+    margin-top: 50px;
+    display: flex;
+    overflow: hidden;
+}
+#scroller_top h1{
+ margin-left: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing:4px;
+}
+#scroller_bot{
+    margin-top: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+#scroller_bot h1{
+    font-family: Arial, Helvetica, sans-serif;                      
+    font-size: 350px;
+}
